@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/styles/header.css">
+    <!-- Vincular el script de carga del header -->
+    <script src="../assets/scripts/loadHeader.js"></script>
+    <title>HOME TEACHER</title>
+</head>
+<body>
+    <div id="header-container"></div> <!-- Aquí se cargará el header -->
+
+    <script>
+        // Tipo de usuario a cargar mientras se hace el back
+        const userType = 'student'; // 'student' 'teacher'
+        loadHeader(userType); // Llamada a la función para cargar el header
+    </script>
+</body>
+</html>

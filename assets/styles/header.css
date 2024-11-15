@@ -1,0 +1,64 @@
+/*Reset Básico*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+header{
+    background-color: rgb(160, 142, 239);
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+logo {
+    height: 40px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+nav .logo {
+    height: 60px;
+    margin-right: 1300px; 
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 50px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
