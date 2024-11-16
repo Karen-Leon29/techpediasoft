@@ -4,13 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/styles/header.css">
+    <link rel="stylesheet" href="../assets/styles/home-student.css">
     <!-- Vincular el script de carga del header -->
     <script src="../assets/scripts/loadHeader.js"></script>
-    <title>HOME TEACHER</title>
+    <title>HOME ESTUDIANTE</title>
 </head>
 <body>
     <div id="header-container"></div> <!-- Aquí se cargará el header -->
+    <div class="team-code-section">
+        <h1>CODIGO DEL EQUIPO</h1>
+        <p>Este proyecto no posee información, por favor espera a que tu líder técnico actualice la información</p>
+    </div>
 
+    <section class="technologies">
+        <h2>Tecnologías y Herramientas</h2>
+        <div class="categories">
+            <div class="category">
+                <h3>Metodología</h3>
+                <div class="placeholder"></div>
+            </div>
+            <div class="category">
+                <h3>Back-End</h3>
+                <div class="placeholder"></div>
+            </div>
+            <div class="category">
+                <h3>Front-End</h3>
+                <div class="placeholder"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="team">
+        <h2>Mi Equipo</h2>
+        <div class="team-card">
+            <div class="card-header">
+                <span class="avatar">A</span>
+                <div class="info">
+                    <h3>Nombre del Integrante</h3>
+                    <p>Sin asignamiento de rol</p>
+                </div>
+            </div>
+            <div class="card-body">
+                <img src="../assets/images/Estudiante.png" alt="Imagen del integrante">
+                <p>Sin información del rol</p>
+            </div>
+            <div class="card-footer">
+                <button>Editar Rol</button>
+            </div>
+        </div>
+        <p class="note">Tu equipo aún no está conformado, por favor espera a que se unan o que tu líder técnico actualice la información</p>
+    </section>
     <script>
         // Tipo de usuario a cargar mientras se hace el back
         const userType = 'student'; // 'student' 'teacher'
