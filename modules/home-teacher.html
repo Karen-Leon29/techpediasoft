@@ -6,10 +6,51 @@
     <link rel="stylesheet" href="../assets/styles/header.css">
     <!-- Vincular el script de carga del header -->
     <script src="../assets/scripts/loadHeader.js"></script>
+    <link rel="stylesheet" href="../assets/styles/home-teacher.css">
     <title>HOME TEACHER</title>
 </head>
 <body>
-    <div id="header-container"></div> <!-- Aquí se cargará el header -->
+    <header class="navbar">
+        <div class="logo">Tech Pediasoft</div>
+        <nav>
+          <a href="#">Inicio</a>
+          <a href="#">Mis Asignaciones</a>
+          <a href="#">Mis Tableros</a>
+        </nav>
+      </header>
+      <main class="container">
+        <h1>Mis Cursos</h1>
+        <div class="courses-grid">
+          <div class="course-card">
+            <img src="../assets/images/imagen-home-teacher.png" alt="Curso 1">
+            <h2>Nombre del Curso</h2>
+            <p>Código del Curso</p>
+            <p>Esta es una descripción del curso</p>
+            <button>Ingresar</button>
+          </div>
+          <div class="course-card">
+            <img src="../assets/images/home-teacher2.png" alt="Curso 2">
+            <h2>Nombre del Curso</h2>
+            <p>Código del Curso</p>
+            <p>Esta es una descripción del curso</p>
+            <button>Ingresar</button>
+          </div>
+          <div class="course-card">
+            <img src="../assets/images/home-teacher3.png" alt="Curso 3">
+            <h2>Nombre del Curso</h2>
+            <p>Código del Curso</p>
+            <p>Esta es una descripción del curso</p>
+            <button>Ingresar</button>
+          </div>
+          <div class="course-card join-card">
+            <div class="join-icon">+</div>
+            <p>Unirse a un nuevo curso</p>
+            <input type="text" placeholder="Ingrese un código de curso">
+            <button id="join-button">Unirme</button>
+          </div>
+        </div>
+      </main>
+      <script src="script.js"></script>
     <script>
         // Tipo de usuario a cargar mientras se hace el back
         const userType = 'teacher'; // 'student' 'teacher'
